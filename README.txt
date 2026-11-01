@@ -1,0 +1,1 @@
+Rozpakuj pliki i otwórz login.html. Strona jest makietą: przycisk nie autoryzuje jeszcze konta. Aby włączyć prawdziwe logowanie, skonfiguruj Discord OAuth2 i backend. Nie wkładaj tokena bota do frontendu.

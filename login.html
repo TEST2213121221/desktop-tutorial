@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Logowanie — Strefa Gry i Rozrywki</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(700px 500px at 20% 10%,#29245b,transparent 60%),#090e1c;color:#f3f5ff;font:16px system-ui,Segoe UI,Arial}.wrap{width:min(92%,440px);padding:34px;border:1px solid #2a3657;border-radius:24px;background:#141c32;box-shadow:0 24px 80px #0006;text-align:center}.logo{font-size:46px}.tag{color:#34d6ff;letter-spacing:2px;font-size:12px;font-weight:800;margin-top:10px}h1{font-size:28px;margin:12px 0}p{color:#a8b3d1;line-height:1.6}.discord{display:flex;justify-content:center;align-items:center;gap:10px;width:100%;padding:14px 18px;margin:24px 0 14px;border:0;border-radius:12px;background:#5865f2;color:#fff;font-size:16px;font-weight:750;text-decoration:none;cursor:pointer}.discord:hover{background:#4752c4}.small{font-size:12px;color:#8d9aba}.notice{border:1px dashed #4a587d;border-radius:12px;padding:12px;text-align:left;font-size:12px;color:#a8b3d1;line-height:1.55}.back{display:inline-block;margin-top:20px;color:#9eafff;text-decoration:none}.back:hover{text-decoration:underline}
+</style></head><body><main class="wrap"><div class="logo">🎮</div><div class="tag">STREFA GRY I ROZRYWKI</div><h1>Zaloguj się</h1><p>Zaloguj się przez Discord, aby przejść do panelu zarządzania botem i serwerem.</p>
+<a class="discord" href="#" id="login">☁️ Zaloguj przez Discord</a>
+<div class="notice"><b>Informacja:</b> to na razie wygląd strony logowania. Przycisk nie rozpocznie autoryzacji, dopóki nie skonfigurujemy Discord OAuth2 w Developer Portal i nie dodamy bezpiecznego backendu. Nie wpisuj tutaj tokena bota ani hasła Discord.</div>
+<a class="back" href="index.html">← Wróć do panelu</a><p class="small">Bezpieczne logowanie powinno odbywać się na oficjalnej stronie Discord.</p></main>
+<script>
+document.getElementById('login').addEventListener('click',function(e){e.preventDefault();alert('Logowanie Discord wymaga konfiguracji OAuth2 i backendu. Ten przycisk jest obecnie demonstracyjny.');});
+</script></body></html>
